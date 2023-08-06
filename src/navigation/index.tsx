@@ -6,7 +6,9 @@ function RootNav() {
   const RootStack = createNativeStackNavigator();
   return (
     <NavigationContainer>
-      <RootStack.Navigator screenOptions={{headerShown: false}}>
+      <RootStack.Navigator
+        initialRouteName="Splash"
+        screenOptions={{headerShown: false}}>
         {Object.entries({...commonStack}).map(([name, component]) => {
           return (
             <RootStack.Screen key={name} component={component} name={name} />

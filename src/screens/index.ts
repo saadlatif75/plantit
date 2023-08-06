@@ -1,3 +1,4 @@
+export *  from './splash';
 export * from './FAQ';
 export * from './addDelegates';
 export * from './addEvent';
@@ -18,3 +19,4 @@ export * from './subsciptionDetail';
 export * from './task';
 export * from './verify';
 export * from './wellcome';
+

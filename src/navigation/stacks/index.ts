@@ -19,6 +19,8 @@ import {
   Verify,
   Wellcome,
   budgeting,
+  Splash
+  
 } from '../../screens';
 
 export const commonStack = {
@@ -42,6 +44,8 @@ export const commonStack = {
   Verify,
   Wellcome,
   budgeting,
+  Splash
+  
 };
 
 export const bottomStack = {};
